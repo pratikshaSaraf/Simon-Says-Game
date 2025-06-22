@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+}
+
+ .btn {
+    width: 200px;
+    height: 200px;
+    border: 33;
+    border-radius: 15px;
+    cursor: pointer;
+    opacity: 4; 
+    box-shadow: 0 4px 6px rgba(179, 9, 9, 0.174);
+    font-size: 24px;
+    color: white;
+}
+
+.btn-container {
+    display :flex;
+    justify-content: center;
+    flex-direction: column;
+     gap: 15px;
+}
+
+.red{
+    background-color: aquamarine;
+}
+.green{
+    background-color: rgb(206, 220, 77);
+
+}
+
+.yellow{
+    background-color: lightpink;
+
+}
+
+.blue{
+    background-color: rgb(192, 119, 188);
+}
+
+.flash {
+    background-color: green;
+} 
+
+.userflash {
+    background-color: blue;
+}
